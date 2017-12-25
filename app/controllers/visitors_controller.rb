@@ -1,11 +1,11 @@
 class VisitorsController < ApplicationController
 
   def new
-    #logger.debug 'DEBUG: entering new method'
+    # logger.debug 'DEBUG: entering new method'
     @owner = Owner.new
-    flash.now[:notice] = 'Welcome!'
-    flash.now[:alert] = 'My birthday is soon.'
-    #Rails.logger.debug 'DEBUG: Owner name is ' + @owner.name
+    # flash.now[:notice] = 'Welcome!'
+    # flash.now[:alert] = 'My birthday is soon.'
+    # Rails.logger.debug 'DEBUG: Owner name is ' + @owner.name
   end
 
 end
