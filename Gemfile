@@ -28,7 +28,12 @@ gem 'bootstrap-sass'
 gem 'gibbon'
 gem 'high_voltage'
 gem 'jquery-rails'
+gem 'binding_of_caller'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
 end
