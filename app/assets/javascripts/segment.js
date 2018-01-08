@@ -79,7 +79,7 @@
 
   // Load Analytics.js with your key, which will automatically
   // load the tools you've enabled for your account. Boosh!
-  analytics.load("Kb7hKOQ8p4");
+  analytics.load("5qcYzPX8dW8G4u0Dlv103F809TjlPxAA");
 
   // accommodate Turbolinks
   // track page views and form submissions
