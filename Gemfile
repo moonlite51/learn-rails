@@ -35,5 +35,6 @@ group :development do
   #gem 'sqlite3'
 end
 group :production do
+  gem 'analytics-ruby', '~> 2.0.0', :require => 'segment/analytics'
   gem 'pg'
 end
