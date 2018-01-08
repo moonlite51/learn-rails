@@ -9,7 +9,6 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
-gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -29,12 +28,12 @@ gem 'gibbon'
 gem 'high_voltage'
 gem 'jquery-rails'
 gem 'binding_of_caller'
+
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
   #gem 'sqlite3'
 end
 group :production do
-  gem 'analytics-ruby', '~> 2.0.0', :require => 'segment/analytics'
   gem 'pg'
 end
